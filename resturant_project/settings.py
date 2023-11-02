@@ -95,6 +95,8 @@ DATABASES = {
     }
 }
 
+AUTH_USER_MODEL = 'accounts.User'   # change django'setting for use creates user model 
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
